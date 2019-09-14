@@ -1,4 +1,4 @@
-# Template Node
+# pokesubs
 
 A new SRML-based Substrate node, ready for hacking.
 

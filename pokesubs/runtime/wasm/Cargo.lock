@@ -1268,7 +1268,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "node-template-runtime"
+name = "pokesubs-runtime"
 version = "1.0.0"
 dependencies = [
  "parity-codec 3.5.4 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -1296,10 +1296,10 @@ dependencies = [
 ]
 
 [[package]]
-name = "node-template-runtime-wasm"
+name = "pokesubs-runtime-wasm"
 version = "1.0.0"
 dependencies = [
- "node-template-runtime 1.0.0",
+ "pokesubs-runtime 1.0.0",
 ]
 
 [[package]]

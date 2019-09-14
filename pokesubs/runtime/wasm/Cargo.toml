@@ -9,13 +9,13 @@ panic = 'abort'
 
 [features]
 default = []
-std = ['node-template-runtime/std']
-[dependencies.node-template-runtime]
+std = ['pokesubs-runtime/std']
+[dependencies.pokesubs-runtime]
 default-features = false
 path = '..'
 
 [package]
 authors = ['Parity Technologies <admin@parity.io>']
 edition = '2018'
-name = 'node-template-runtime-wasm'
+name = 'pokesubs-runtime-wasm'
 version = '1.0.0'

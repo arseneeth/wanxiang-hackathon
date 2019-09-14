@@ -1,5 +1,5 @@
 [[bin]]
-name = 'node-template'
+name = 'pokesubs'
 path = 'src/main.rs'
 [profile.release]
 panic = 'unwind'
@@ -39,7 +39,7 @@ git = 'https://github.com/paritytech/substrate.git'
 package = 'substrate-network'
 branch = 'v1.0'
 
-[dependencies.node-template-runtime]
+[dependencies.pokesubs-runtime]
 path = 'runtime'
 
 [dependencies.primitives]
@@ -76,7 +76,7 @@ branch = 'v1.0'
 authors = ['Parity Technologies <admin@parity.io>']
 build = 'build.rs'
 edition = '2018'
-name = 'node-template'
+name = 'pokesubs'
 version = '1.0.0'
 
 [build-dependencies]
