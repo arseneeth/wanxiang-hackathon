@@ -188,7 +188,9 @@ impl sudo::Trait for Runtime {
 	type Proposal = Call;
 }
 
-impl pokesubs::Trait for Runtime {}
+impl pokesubs::Trait for Runtime {
+	type Event = Event;
+}
 
 
 construct_runtime!(
@@ -207,7 +209,7 @@ construct_runtime!(
 		// Used for the module template in `./template.rs`
 		// TemplateModule: template::{Module, Call, Storage, Event<T>},
 		// ExampleModule: substrate_module_template::{Module, Call, Storage, Event<T>},
-        Pokesubs: pokesubs::{Module, Call, Storage},
+        Pokesubs: pokesubs::{Module, Call, Storage, Event<T>},
 
 	}
 );
