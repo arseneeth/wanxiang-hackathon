@@ -1268,41 +1268,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "pokesubs-runtime"
-version = "1.0.0"
-dependencies = [
- "parity-codec 3.5.4 (registry+https://github.com/rust-lang/crates.io-index)",
- "safe-mix 1.0.0 (registry+https://github.com/rust-lang/crates.io-index)",
- "serde 1.0.98 (registry+https://github.com/rust-lang/crates.io-index)",
- "sr-io 1.0.0 (git+https://github.com/paritytech/substrate.git?branch=v1.0)",
- "sr-primitives 1.0.0 (git+https://github.com/paritytech/substrate.git?branch=v1.0)",
- "sr-std 1.0.0 (git+https://github.com/paritytech/substrate.git?branch=v1.0)",
- "sr-version 1.0.0 (git+https://github.com/paritytech/substrate.git?branch=v1.0)",
- "srml-aura 1.0.0 (git+https://github.com/paritytech/substrate.git?branch=v1.0)",
- "srml-balances 1.0.0 (git+https://github.com/paritytech/substrate.git?branch=v1.0)",
- "srml-consensus 1.0.0 (git+https://github.com/paritytech/substrate.git?branch=v1.0)",
- "srml-executive 1.0.0 (git+https://github.com/paritytech/substrate.git?branch=v1.0)",
- "srml-indices 1.0.0 (git+https://github.com/paritytech/substrate.git?branch=v1.0)",
- "srml-sudo 1.0.0 (git+https://github.com/paritytech/substrate.git?branch=v1.0)",
- "srml-support 1.0.0 (git+https://github.com/paritytech/substrate.git?branch=v1.0)",
- "srml-system 1.0.0 (git+https://github.com/paritytech/substrate.git?branch=v1.0)",
- "srml-timestamp 1.0.0 (git+https://github.com/paritytech/substrate.git?branch=v1.0)",
- "substrate-client 1.0.0 (git+https://github.com/paritytech/substrate.git?branch=v1.0)",
- "substrate-consensus-aura-primitives 1.0.0 (git+https://github.com/paritytech/substrate.git?branch=v1.0)",
- "substrate-consensus-authorities 1.0.0 (git+https://github.com/paritytech/substrate.git?branch=v1.0)",
- "substrate-module-template 0.1.0",
- "substrate-offchain-primitives 0.1.0 (git+https://github.com/paritytech/substrate.git?branch=v1.0)",
- "substrate-primitives 1.0.0 (git+https://github.com/paritytech/substrate.git?branch=v1.0)",
-]
-
-[[package]]
-name = "pokesubs-runtime-wasm"
-version = "1.0.0"
-dependencies = [
- "pokesubs-runtime 1.0.0",
-]
-
-[[package]]
 name = "nodrop"
 version = "0.1.13"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1575,6 +1540,41 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 name = "pkg-config"
 version = "0.3.15"
 source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "pokesubs-runtime"
+version = "1.0.0"
+dependencies = [
+ "parity-codec 3.5.4 (registry+https://github.com/rust-lang/crates.io-index)",
+ "safe-mix 1.0.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "serde 1.0.98 (registry+https://github.com/rust-lang/crates.io-index)",
+ "sr-io 1.0.0 (git+https://github.com/paritytech/substrate.git?branch=v1.0)",
+ "sr-primitives 1.0.0 (git+https://github.com/paritytech/substrate.git?branch=v1.0)",
+ "sr-std 1.0.0 (git+https://github.com/paritytech/substrate.git?branch=v1.0)",
+ "sr-version 1.0.0 (git+https://github.com/paritytech/substrate.git?branch=v1.0)",
+ "srml-aura 1.0.0 (git+https://github.com/paritytech/substrate.git?branch=v1.0)",
+ "srml-balances 1.0.0 (git+https://github.com/paritytech/substrate.git?branch=v1.0)",
+ "srml-consensus 1.0.0 (git+https://github.com/paritytech/substrate.git?branch=v1.0)",
+ "srml-executive 1.0.0 (git+https://github.com/paritytech/substrate.git?branch=v1.0)",
+ "srml-indices 1.0.0 (git+https://github.com/paritytech/substrate.git?branch=v1.0)",
+ "srml-sudo 1.0.0 (git+https://github.com/paritytech/substrate.git?branch=v1.0)",
+ "srml-support 1.0.0 (git+https://github.com/paritytech/substrate.git?branch=v1.0)",
+ "srml-system 1.0.0 (git+https://github.com/paritytech/substrate.git?branch=v1.0)",
+ "srml-timestamp 1.0.0 (git+https://github.com/paritytech/substrate.git?branch=v1.0)",
+ "substrate-client 1.0.0 (git+https://github.com/paritytech/substrate.git?branch=v1.0)",
+ "substrate-consensus-aura-primitives 1.0.0 (git+https://github.com/paritytech/substrate.git?branch=v1.0)",
+ "substrate-consensus-authorities 1.0.0 (git+https://github.com/paritytech/substrate.git?branch=v1.0)",
+ "substrate-module-template 0.1.0",
+ "substrate-offchain-primitives 0.1.0 (git+https://github.com/paritytech/substrate.git?branch=v1.0)",
+ "substrate-primitives 1.0.0 (git+https://github.com/paritytech/substrate.git?branch=v1.0)",
+]
+
+[[package]]
+name = "pokesubs-runtime-wasm"
+version = "1.0.0"
+dependencies = [
+ "pokesubs-runtime 1.0.0",
+]
 
 [[package]]
 name = "primitive-types"
